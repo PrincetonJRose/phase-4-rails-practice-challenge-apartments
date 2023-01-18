@@ -5,6 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Lease.destroy_all
+Apartment.destroy_all
+Tenant.destroy_all
 
 a1 = Apartment.create(number: 4109)
 a2 = Apartment.create(number: 1107)
